@@ -1,36 +1,102 @@
-# Online Library System (React + Vite)
+📚 Online Library System – React (Vite)
+📌 Project Overview
 
-This is an online library web application built using **React**, **Vite**, **Redux Toolkit**, and **React Router**.  
-Users can browse books by category, search by title or author, view detailed information about a book, and add new books to the library.
+This is an Online Library System built using React and Vite.
+The application allows users to browse books by category, view detailed book information, search books, and add new books to the library using Redux for state management.
 
-## Features
+🎯 Features
 
-- Home page with:
-  - Welcome message
-  - Book categories
-  - Popular books displayed as cards
-- Browse Books page:
-  - Filter books by category using dynamic routes (`/books/:category`)
-  - Search books by title or author
-- Book Details page:
-  - View book title, author, description, and rating
-- Add Book page:
-  - Add a new book using a form
-  - Form validation (required fields and rating range)
-  - Uses **Redux** to manage books list
-  - Newly added book appears at the beginning of the list
-- Not found Page:
-  - Displays invalid route URL
-  - Link to navigate back to the Home page
+🏠 Home page with book categories and popular books
 
----
+📖 Browse books by category using dynamic routing
 
-## Getting Started
+🔍 Search books by title or author
 
-Follow these steps to run the project locally.
+📘 View detailed book information
 
-## 1. open your terminal 
-## 2. use cd lib-app command in terminal
-## 3. then use command npm run dev
-## 4. a link will appear in terminal click on link and u will see the project working.
+➕ Add new books with form validation
 
+🧠 Redux used to manage book state
+
+🚫 Custom 404 Page (Page Not Found)
+
+🎨 User-friendly and responsive UI
+
+🛠️ Tech Stack
+
+React (Functional Components)
+
+Vite
+
+Redux / Redux Toolkit
+
+React Router DOM
+
+JavaScript (ES6)
+
+HTML5 & CSS / Tailwind / Bootstrap
+
+📂 Project Structure
+src/
+│── components/
+│   ├── Header.jsx
+│   ├── BookCard.jsx
+│   ├── CategoryList.jsx
+│
+│── pages/
+│   ├── Home.jsx
+│   ├── BrowseBooks.jsx
+│   ├── BookDetails.jsx
+│   ├── AddBook.jsx
+│   ├── NotFound.jsx
+│
+│── redux/
+│   ├── store.js
+│   ├── booksSlice.js
+│
+│── data/
+│   ├── booksData.js
+│
+│── App.jsx
+│── main.jsx
+│── index.css
+
+🧰 Prerequisites
+
+Ensure the following are installed:
+
+Node.js (v16 or higher)
+👉 https://nodejs.org/
+
+npm
+
+Code editor (VS Code recommended)
+
+Check versions:
+
+node -v
+npm -v
+
+⚙️ How to Run the Application
+1️⃣ Clone the Repository
+git clone <your-github-repository-url>
+
+
+Navigate into the project folder:
+
+cd project-folder-name
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start the Development Server
+npm run dev
+
+4️⃣ Open in Browser
+
+Vite will provide a URL such as:
+
+http://localhost:5173
+
+
+Open this link in your browser to view the application.
