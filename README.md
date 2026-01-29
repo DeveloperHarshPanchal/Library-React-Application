@@ -1,104 +1,65 @@
-📚 Online Library System – React (Vite)
-📌 Project Overview
+# 📚 Online Library System – React (Vite)
 
-This is an Online Library System built using React and Vite.
-The application allows users to browse books by category, view detailed book information, search books, and add new books to the library using Redux for state management.
+An **Online Library System** built using **React** and **Vite**.  
+This application allows users to browse books by category, search books, view detailed information, and add new books using **Redux** for state management.
 
-Github Link : https://github.com/DeveloperHarshPanchal/Library-React-Application 
+🔗 **GitHub Repository**  
+https://github.com/DeveloperHarshPanchal/Library-React-Application
 
-🎯 Features
+---
 
-🏠 Home page with book categories and popular books
+## 🎯 Features
 
-📖 Browse books by category using dynamic routing
+- 🏠 Home page with book categories and popular books  
+- 📖 Browse books by category using **dynamic routing**  
+- 🔍 Search books by **title or author**  
+- 📘 View detailed book information  
+- ➕ Add new books with **form validation**  
+- 🧠 **Redux / Redux Toolkit** for state management  
+- 🚫 Custom **404 Page (Page Not Found)**  
+- 🎨 User-friendly and responsive UI  
 
-🔍 Search books by title or author
+---
 
-📘 View detailed book information
+## 🛠️ Tech Stack
 
-➕ Add new books with form validation
+- **React** (Functional Components)  
+- **Vite**  
+- **Redux / Redux Toolkit**  
+- **React Router DOM**  
+- **JavaScript (ES6)**  
+- **HTML5 & CSS / Tailwind / Bootstrap**
 
-🧠 Redux used to manage book state
+---
 
-🚫 Custom 404 Page (Page Not Found)
+## ⚙️ How to Run the Application
 
-🎨 User-friendly and responsive UI
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/DeveloperHarshPanchal/Library-React-Application.git
+```
 
-🛠️ Tech Stack
-
-React (Functional Components)
-
-Vite
-
-Redux / Redux Toolkit
-
-React Router DOM
-
-JavaScript (ES6)
-
-HTML5 & CSS / Tailwind / Bootstrap
-
-📂 Project Structure
-src/
-│── components/
-│   ├── Header.jsx
-│   ├── BookCard.jsx
-│   ├── CategoryList.jsx
-│
-│── pages/
-│   ├── Home.jsx
-│   ├── BrowseBooks.jsx
-│   ├── BookDetails.jsx
-│   ├── AddBook.jsx
-│   ├── NotFound.jsx
-│
-│── redux/
-│   ├── store.js
-│   ├── booksSlice.js
-│
-│── data/
-│   ├── booksData.js
-│
-│── App.jsx
-│── main.jsx
-│── index.css
-
-🧰 Prerequisites
-
-Ensure the following are installed:
-
-Node.js (v16 or higher)
-👉 https://nodejs.org/
-
-npm
-
-Code editor (VS Code recommended)
-
-Check versions:
-
-node -v
-npm -v
-
-⚙️ How to Run the Application
-1️⃣ Clone the Repository
-git clone <your-github-repository-url>
-
-
-Navigate into the project folder:
-
-cd project-folder-name
-
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
-3️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
+```bash
 npm run dev
+```
 
-4️⃣ Open in Browser
-
-Vite will provide a URL such as:
-
+### 4️⃣ Open in browser
+Vite will provide a URL like:
+```bash
 http://localhost:5173
+```
+Open this link in your browser to view the application 🚀
 
 
-Open this link in your browser to view the application.
+
+
+
+
+
+
